@@ -1,0 +1,13 @@
+{
+  "name": "template-meridian",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Meridian — a Tourground Launch Pad template for a single-page travel brand site.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/build.mjs && node scripts/serve.mjs",
+    "check:mobile": "node scripts/check-mobile.mjs"
+  }
+}
